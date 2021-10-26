@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #0f9;
+}
+.header {
+  height: calc(8.3vw + 20px);
+  min-height: 95px;
+  padding: 10px 5px;
+}
+.rose {
+  height: 8.3vw;
+  width: 8.3vw;
+}
+.upper-header {
+  height: 6vw;
+  background: #f00;
+  min-height: 50px;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(207,207,227,1) 51%, rgba(131,133,134,1) 100%);
+}
+.upper-header-content {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  font-size: 130%;
+/*  font-family: 'Londrina Shadow', cursive;
+  line-height: initial;*/
+  padding-bottom: 6px;
+}
+.lower-header {
+  height: 2.3vw;
+  min-height: 25px;
+  background: radial-gradient(ellipse at top -0% right 50%, rgba(129,128,128,1) 0%, rgba(207,207,227,1) 65%, rgba(255,255,255,1) 100%);
+}
